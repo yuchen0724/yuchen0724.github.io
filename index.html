@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuchen's Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Yuchen</a>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页部分 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>你好，我是<span>Yuchen</span></h1>
+                <p>热爱技术的<span class="typing-text"></span></p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-weixin"></i></a>
+                </div>
+                <a href="#contact" class="btn">联系我</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我部分 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>关于<span>我</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://picsum.photos/seed/profile/400/400" alt="Yuchen的照片">
+                </div>
+                <div class="about-text">
+                    <h3>我是一名<span>充满激情</span>的技术爱好者</h3>
+                    <p>欢迎来到我的个人主页！我是Yuchen，一个热爱技术、不断学习和探索的开发者。我对编程、设计和解决问题充满热情，喜欢将创意转化为实际应用。</p>
+                    <p>我拥有扎实的技术基础和丰富的项目经验，擅长前端开发、后端开发和移动应用开发等多个领域。我始终保持学习新技术的热情，不断提升自己的专业能力。</p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span class="label">姓名:</span>
+                            <span class="value">Yuchen</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">专业:</span>
+                            <span class="value">计算机科学</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">邮箱:</span>
+                            <span class="value">yuchen@example.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">位置:</span>
+                            <span class="value">中国，上海</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能部分 -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>我的<span>技能</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>编程语言</h3>
+                    <div class="skill-bar">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-progress"><div class="skill-percentage" data-percentage="90"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">Python</div>
+                        <div class="skill-progress"><div class="skill-percentage" data-percentage="85"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">Java</div>
+                        <div class="skill-progress"><div class="skill-percentage" data-percentage="80"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">C++</div>
+                        <div class="skill-progress"><div class="skill-percentage" data-percentage="75"></div></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>前端技术</h3>
+                    <div class="skill-bar">
+                        <div class="skill-name">HTML5/CSS3</div>
+                        <div class="skill-progress"><div class="skill-percentage" data-percentage="95"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">React</div>
+                        <div class="skill-progress"><div class="skill-percentage" data-percentage="85"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">Vue</div>
+                        <div class="skill-progress"><div class="skill-percentage" data-percentage="80"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">Angular</div>
+                        <div class="skill-progress"><div class="skill-percentage" data-percentage="70"></div></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>后端技术</h3>
+                    <div class="skill-bar">
+                        <div class="skill-name">Node.js</div>
+                        <div class="skill-progress"><div class="skill-percentage" data-percentage="85"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">Spring Boot</div>
+                        <div class="skill-progress"><div class="skill-percentage" data-percentage="80"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">Django</div>
+                        <div class="skill-progress"><div class="skill-percentage" data-percentage="75"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">Database</div>
+                        <div class="skill-progress"><div class="skill-percentage" data-percentage="85"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目部分 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>我的<span>项目</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-content">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/seed/project1/600/400" alt="项目1">
+                    </div>
+                    <div class="project-info">
+                        <h3>电子商务网站</h3>
+                        <p>一个功能完整的电子商务平台，支持产品浏览、购物车、支付等功能。</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">查看详情</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/seed/project2/600/400" alt="项目2">
+                    </div>
+                    <div class="project-info">
+                        <h3>社交媒体应用</h3>
+                        <p>一个现代化的社交媒体平台，支持用户互动、内容分享和实时聊天。</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>Socket.io</span>
+                        </div>
+                        <a href="#" class="project-link">查看详情</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/seed/project3/600/400" alt="项目3">
+                    </div>
+                    <div class="project-info">
+                        <h3>数据分析仪表板</h3>
+                        <p>一个数据可视化平台，帮助用户分析和理解复杂的业务数据。</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>Chart.js</span>
+                        </div>
+                        <a href="#" class="project-link">查看详情</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式部分 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>联系<span>我</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-text">
+                            <h4>邮箱</h4>
+                            <p>yuchen@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-text">
+                            <h4>电话</h4>
+                            <p>+86 123 4567 8910</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-text">
+                            <h4>地址</h4>
+                            <p>上海市浦东新区张江高科技园区</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="你的名字" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="你的邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="你的留言" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">发送留言</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2023 Yuchen. 保留所有权利。</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">首页</a>
+                    <a href="#about">关于我</a>
+                    <a href="#skills">技能</a>
+                    <a href="#projects">项目</a>
+                    <a href="#contact">联系方式</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
